@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" filepath="$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" filepath="$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" filepath="$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" filepath="$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" />
     </modules>
   </component>
