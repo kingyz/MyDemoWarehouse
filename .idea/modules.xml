@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/androidMyDemoWarehouse.iml" filepath="$PROJECT_DIR$/androidMyDemoWarehouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coverItem/coverItem.iml" filepath="$PROJECT_DIR$/coverItem/coverItem.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" filepath="$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" filepath="$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" filepath="$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" />

@@ -1,1 +1,1 @@
-include ':app', ':googlemapdemo', ':googlemapdemo2', ':tablayoutdemo', ':scrollinterceptdemo'
+include ':app', ':googlemapdemo', ':googlemapdemo2', ':tablayoutdemo', ':scrollinterceptdemo', ':coverItem'
