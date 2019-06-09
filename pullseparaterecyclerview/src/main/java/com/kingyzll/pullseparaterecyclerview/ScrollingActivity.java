@@ -12,6 +12,7 @@ import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -50,6 +51,8 @@ public class ScrollingActivity extends AppCompatActivity {
         initView();
     }
 
+    int viewHeight = 0;
+
     public void initView() {
         recyclerView = findViewById(R.id.recycler);
         LinearLayoutManager manager = new LinearLayoutManager(this);
@@ -66,7 +69,9 @@ public class ScrollingActivity extends AppCompatActivity {
         scaleAdapter.setFirstOnly(false);
         scaleAdapter.setInterpolator(new DecelerateInterpolator());
 
-        recyclerView.setAdapter(scaleAdapter);
+        recyclerView.setAdapter(slideAdapter);
+
+
 
         //让item重叠的方法
         recyclerView.addItemDecoration(new RecyclerView.ItemDecoration() {
@@ -117,7 +122,7 @@ public class ScrollingActivity extends AppCompatActivity {
 
         @Override
         public int getItemCount() {
-            return 20;
+            return 2;
         }
     }
 

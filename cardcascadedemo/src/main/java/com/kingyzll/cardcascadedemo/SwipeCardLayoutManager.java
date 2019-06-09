@@ -3,6 +3,7 @@ package com.kingyzll.cardcascadedemo;
 import android.content.Context;
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
 import android.util.TypedValue;
@@ -50,20 +51,36 @@ public class SwipeCardLayoutManager extends RecyclerView.LayoutManager {
 
     private void calculateChildrenSite(RecyclerView.Recycler recycler) {
         totalHeight = 0;
+
+        int parentHeight = getHeight();
+
         for (int i = 0; i < getItemCount(); i++) {
             View view = recycler.getViewForPosition(i);
             addView(view);
             measureChildWithMargins(view, 0, 0);
             int widthSpace = getWidth() - getDecoratedMeasuredWidth(view);
             int height = getDecoratedMeasuredHeight(view);
-            //摆放cardView
-            layoutDecorated(view,
-                    widthSpace / 2,
-                    TRANS_Y_GAP * i,
-                    widthSpace / 2 + getDecoratedMeasuredWidth(view),
-                    getDecoratedMeasuredHeight(view) + TRANS_Y_GAP * i);
+            totalHeight = height + TRANS_Y_GAP * (getItemCount() - 1);
+            if (totalHeight >= parentHeight) {
+                layoutDecorated(view,
+                        widthSpace / 2,
+                        TRANS_Y_GAP * i,
+                        widthSpace / 2 + getDecoratedMeasuredWidth(view),
+                        getDecoratedMeasuredHeight(view) + TRANS_Y_GAP * i);
+                Log.e("abc", String.valueOf(parentHeight));
+                Log.e("abc", "totalHeight" + String.valueOf(totalHeight));
+            } else {
+                int transY = parentHeight - totalHeight;
 
-            totalHeight = height + TRANS_Y_GAP * (i);
+                layoutDecorated(view,
+                        widthSpace / 2,
+                        TRANS_Y_GAP * i + transY,
+                        widthSpace / 2 + getDecoratedMeasuredWidth(view),
+                        getDecoratedMeasuredHeight(view) + TRANS_Y_GAP * i + transY);
+            }
+
+            //摆放cardView
+
 
         }
 
@@ -79,10 +96,12 @@ public class SwipeCardLayoutManager extends RecyclerView.LayoutManager {
 
         int travel = dy;
 
-        if (verticalScrollOffset + dy < 0) {
+        if (verticalScrollOffset + dy < 0 && totalHeight > getHeight()) {
             travel = -verticalScrollOffset;
-        } else if (verticalScrollOffset + dy > totalHeight - getVerticalSpace()) {
+        } else if (verticalScrollOffset + dy > totalHeight - getVerticalSpace() && totalHeight > getHeight()) {
             travel = totalHeight - getVerticalSpace() - verticalScrollOffset;
+        } else if (getHeight() > totalHeight) {
+            travel = 0;
         }
         verticalScrollOffset += travel;
 

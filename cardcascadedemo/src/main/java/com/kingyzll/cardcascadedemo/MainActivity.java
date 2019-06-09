@@ -4,6 +4,7 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements PositionListener 
     private void initData() {
         int[] initimage = {R.drawable.a, R.drawable.b, R.drawable.c, R.drawable.d, R.drawable.e,
                 R.drawable.f, R.drawable.g, R.drawable.a};
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 3; i++) {
             SwipeCardBean swipeCardBean = new SwipeCardBean();
             swipeCardBean.resoutimage = initimage[i];
             swipeCardBean.title = "美丽" + i;
@@ -51,6 +52,9 @@ public class MainActivity extends AppCompatActivity implements PositionListener 
         mAdapter.setPositionListener1(this);
         mActivity_review.setAdapter(mAdapter);
         CardConfig.initConfig(this);
+
+        //int height = mActivity_review.computeVerticalScrollRange();
+       // Log.e("abc", String.valueOf(height));
 
         
 
