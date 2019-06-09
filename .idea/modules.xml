@@ -4,10 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/androidMyDemoWarehouse.iml" filepath="$PROJECT_DIR$/androidMyDemoWarehouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardcascadedemo/cardcascadedemo.iml" filepath="$PROJECT_DIR$/cardcascadedemo/cardcascadedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/coverItem/coverItem.iml" filepath="$PROJECT_DIR$/coverItem/coverItem.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" filepath="$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" filepath="$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullseparaterecyclerview/pullseparaterecyclerview.iml" filepath="$PROJECT_DIR$/pullseparaterecyclerview/pullseparaterecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recylerviewswper/recylerviewswper.iml" filepath="$PROJECT_DIR$/recylerviewswper/recylerviewswper.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" filepath="$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidecarddemo/slidecarddemo.iml" filepath="$PROJECT_DIR$/slidecarddemo/slidecarddemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" filepath="$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" />
     </modules>
   </component>
