@@ -1,1 +1,1 @@
-include ':app', ':googlemapdemo', ':googlemapdemo2', ':tablayoutdemo', ':scrollinterceptdemo', ':coverItem', ':cardcascadedemo', ':slidecarddemo', ':recylerviewswper', ':pullseparaterecyclerview'
+include ':app', ':googlemapdemo', ':googlemapdemo2', ':tablayoutdemo', ':scrollinterceptdemo', ':coverItem', ':cardcascadedemo', ':slidecarddemo', ':recylerviewswper', ':pullseparaterecyclerview', ':recyclerviewentrance'
