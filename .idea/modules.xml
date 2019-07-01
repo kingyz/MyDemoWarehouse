@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/addlist/addlist.iml" filepath="$PROJECT_DIR$/addlist/addlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidMyDemoWarehouse.iml" filepath="$PROJECT_DIR$/androidMyDemoWarehouse.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/cardcascadedemo/cardcascadedemo.iml" filepath="$PROJECT_DIR$/cardcascadedemo/cardcascadedemo.iml" />
@@ -9,10 +10,13 @@
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" filepath="$PROJECT_DIR$/googlemapdemo/googlemapdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" filepath="$PROJECT_DIR$/googlemapdemo2/googlemapdemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullseparaterecyclerview/pullseparaterecyclerview.iml" filepath="$PROJECT_DIR$/pullseparaterecyclerview/pullseparaterecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewbottomcardslidelayoutmanager/recyclerviewbottomcardslidelayoutmanager.iml" filepath="$PROJECT_DIR$/recyclerviewbottomcardslidelayoutmanager/recyclerviewbottomcardslidelayoutmanager.iml" />
       <module fileurl="file://$PROJECT_DIR$/recyclerviewentrance/recyclerviewentrance.iml" filepath="$PROJECT_DIR$/recyclerviewentrance/recyclerviewentrance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewscalex/recyclerviewscalex.iml" filepath="$PROJECT_DIR$/recyclerviewscalex/recyclerviewscalex.iml" />
       <module fileurl="file://$PROJECT_DIR$/recylerviewswper/recylerviewswper.iml" filepath="$PROJECT_DIR$/recylerviewswper/recylerviewswper.iml" />
       <module fileurl="file://$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" filepath="$PROJECT_DIR$/scrollinterceptdemo/scrollinterceptdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidecarddemo/slidecarddemo.iml" filepath="$PROJECT_DIR$/slidecarddemo/slidecarddemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/startanimationandtoinitialposition/startanimationandtoinitialposition.iml" filepath="$PROJECT_DIR$/startanimationandtoinitialposition/startanimationandtoinitialposition.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" filepath="$PROJECT_DIR$/tablayoutdemo/tablayoutdemo.iml" />
     </modules>
   </component>
